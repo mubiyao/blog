@@ -2,7 +2,7 @@ entries:
   - title: about
     entries:
       - title: aspiring developer and adrenaline junkie. likes things that go fast. foss enthusiast
-      - title: "me: <a href='github.com/mubiyao'>github</a> | <a href='twitter.com/mubiyao'>twitter</a> | <a href='discord.gg/ctt'>my org</a>
+      - title: "me: <a href='github.com/mubiyao'>github</a> | <a href='twitter.com/mubiyao'>twitter</a> | <a href='discord.gg/ctt'>my org</a>"
 
   - title: thoughts
     post_list: true
