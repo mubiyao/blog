@@ -30,7 +30,7 @@ twitter_username: mubiyao
 github_username:  avid179
 
 # Build settings
-theme: minima
+theme: no-style-please
 plugins:
   - jekyll-feed
 
