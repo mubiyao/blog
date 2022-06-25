@@ -8,12 +8,13 @@ url: "mubiyao.github.io" # the base hostname & protocol for your site, e.g. http
 github_username:  mubiyao
 
 # Build settings
-remote_theme: riggraz/no-style-please
-theme_config:
-  appearance: "dark"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+theme: minima
+#remote_theme: riggraz/no-style-please
+# theme_config:
+  #appearance: "dark"
+  #back_home_text: ".." # customize text for homepage link in post layout
+  #date_format: "%Y-%m-%d" # customize how date is formatted
+  #show_description: false # show blog description in home page
 plugins:
   - jekyll-feed
 include:
