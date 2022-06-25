@@ -10,15 +10,15 @@ A few weeks before setting up this blog, I decided to start learning the Ruby pr
 
 After using the Ineractive Enviroment for a bit, I decided to start writing by first program.
 
-```ruby
+{% highlight ruby %}
 #!/usr/bin/ruby 
 
 puts "Hello, World"; 
-```
+{% endhighlight %}
 
 A simple Hello World didn't show much, but after coding trial programs for awhile, I could see a slight similarity to the syntax of C++ and Perl. It took some time getting used to working with another OO Language 2-3 years after learning Java, but it was easy since EVERYTHING is an object in Ruby. Coming from Python, I found accessor & setter Methods to be easy to replicate some of the programs I coded in Python before.
 
-```ruby
+{% highlight ruby %}
 #!/usr/bin/ruby 
 
 # outputs a random width and height of a box
@@ -53,7 +53,7 @@ y = box.getHeight()
 
 puts "Width of the box is : #{x}"
 puts "Height of the box is : #{y}"
-```
+{% endhighlight %}
 
 I don't really know how to end off this post, but I'll continue to update this blog with my progress of learning Ruby and some code snippets along the way.
 
