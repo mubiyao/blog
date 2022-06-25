@@ -24,13 +24,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Just a cozy little blog with a bit of everything, from tech to code 
   snippets, to cooking and motorsports. Owned by a adrenaline addict and
   an avid tech enthuiast.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "mubiyao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mubiyao
 github_username:  mubiyao
 
 # Build settings
-theme: no-style-please
+theme: minima
 plugins:
   - jekyll-feed
 
