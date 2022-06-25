@@ -1,38 +1,23 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: moony's everything blog
+title: mubi's corner
 email: vikshar.rajesh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Just a cozy little blog with a bit of everything, from tech to code 
-  snippets, to cooking and motorsports. Owned by a adrenaline addict and
-  an avid tech enthuiast.
+  a blog that documents my thoughts. a little bit of everything, but
+  mostly focused on technology and engineering 
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "mubiyao.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mubiyao
 github_username:  mubiyao
 
 # Build settings
 theme: no-style-please
+theme_config:
+  appearance: "dark"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 plugins:
   - jekyll-feed
+include:
+  -pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
